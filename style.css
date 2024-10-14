@@ -1,0 +1,150 @@
+
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, #ceb79c 20%, #ffffff);
+    margin: 0px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    top: 300px;
+    text-decoration: underline;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    font-size: 40px;
+    transform: translateY(-100px);
+    font-family: "EB Garamond", serif;
+    border-style: outset;
+    border-radius: 10px;
+    width: 418px;
+    position: absolute;
+    top: 230px;
+}
+
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px; 
+    display: block;
+    text-align: center;
+    
+}
+
+.navbar a:hover{
+    background-color: #ceb79c;
+    border-radius: 10px;
+    
+}
+
+.navbar li{
+    float: left;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    
+
+    }
+
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+
+#text {
+    position: relative;
+    top: 400px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 80px;
+
+}
+
+.img {
+    position: absolute;
+    height: 210px;
+    left: 330px;
+    top: -25px;
+
+
+}
+
+#link {
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    background-color: #eed5b8;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-family: "Qwitcher Grypen", cursive;
+    padding: 3px;
+    left: 32px;
+}
+
+#link:hover {
+    background-color: aliceblue;
+
+}
+
+
+.img2 {
+    position: absolute;
+    height: 60px;
+    top: 400px;
+}
+
+#text2{
+    top: 407px;
+    position: absolute;
+    font-size: 32px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-family: "EB Garamond", serif;
+    background-color: transparent;
+    padding: 2px;
+}
+#text2:hover{
+
+    background-color: #ceb79cd0;
+    border-radius: 10px;
+}
+
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 80%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 150px;
+}
+
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(92, 91, 90);
+    transition: all ease-in-out 0.5s;
+    
+}
+
+
+.container img:hover{
+    width: 25%;
+}
